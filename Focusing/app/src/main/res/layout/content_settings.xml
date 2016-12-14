@@ -51,7 +51,7 @@
         android:layout_below="@+id/textView2" />
 
     <Switch
-        android:text="Photos"
+        android:text="Netflix"
         android:layout_width="300dp"
         android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
         android:layout_below="@+id/textView2" />
 
     <Switch
-        android:text="Music"
+        android:text="Youtube"
         android:layout_width="300dp"
         android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"

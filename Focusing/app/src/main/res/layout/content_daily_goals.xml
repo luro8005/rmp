@@ -32,59 +32,15 @@
         android:layout_marginTop="27dp"
         android:id="@+id/textView11" />
 
-    <RatingBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/ratingBar"
-        android:layout_marginTop="46dp"
-        android:layout_below="@+id/textView11"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:text="1hr"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView11"
-        android:layout_toStartOf="@+id/textView2"
-        android:layout_marginTop="25dp"
-        android:layout_marginRight="20dp"
-        android:id="@+id/textView12" />
-
-    <TextView
-        android:text="4hrs"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/textView13"
+    <EditText
+        android:text="Goals In Minutes:"
+        android:inputType="number"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="77dp"
         android:layout_centerHorizontal="true"
-        android:id="@+id/textView14" />
+        android:gravity="center"
+        android:id="@+id/editText3" />
 
-    <TextView
-        android:text="3hrs"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="40dp"
-        android:id="@+id/textView13"
-        android:layout_alignBaseline="@+id/textView12"
-        android:layout_alignBottom="@+id/textView12"
-        android:layout_toEndOf="@+id/textView12" />
-
-    <TextView
-        android:text="6hrs"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView16"
-        android:layout_alignBaseline="@+id/textView15"
-        android:layout_alignBottom="@+id/textView15"
-        android:layout_alignEnd="@+id/ratingBar"
-        android:layout_marginEnd="10dp" />
-
-    <TextView
-        android:text="5hrs"
-        android:layout_width="30dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView15"
-        android:layout_alignBaseline="@+id/textView14"
-        android:layout_alignBottom="@+id/textView14"
-        android:layout_alignEnd="@+id/textView2" />
 
 </RelativeLayout>
